@@ -15,5 +15,7 @@ deploy:
   region: ap-northeast-2
   skip_cleanup: true
   local_dir: build
+  on:
+    branch: main
 
   # http://www.yamllint.com/
